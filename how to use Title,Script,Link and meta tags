@@ -1,0 +1,27 @@
+<!--In this tutorial we will show that how the meta tags used and 
+    how we can used external css and external javascript -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="Description" content="this is  Description">
+        <meta name="keywords" content="html,html tutorials,web">
+        <meta name="robots" content="INDEX, FOLLOW">
+
+
+     <!--One of the goals of this page is to explain which meta tags 
+        can potentially help your SEO rankings and which have mostly fallen out of use. -->
+
+        <title>Meta Tags used</title>
+        <!--How we can use external css-->
+        <link rel="stylesheet" href="Adil.css">
+        <!--How we can use external javascript-->
+        <script src="adil.js"></script>
+
+        <title>Document</title>
+    </head>
+    <body>
+        
+    </body>
+    </html>
