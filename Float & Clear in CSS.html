@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float & Clear in CSS </title>
+    <!-- <link rel="stylesheet" href="Lec #21 Float & Clear.css"> -->
+    <link rel="stylesheet" href=""https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+        *{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Tangerine', serif;
+        font-size: 18px;
+}
+.container{
+    width: 900px;
+    border: 3px solid gray;
+    background-color: aqua;
+    margin: 33px auto;
+}
+.item{
+border: 3px solid blue;
+margin: 12px 3px ;
+padding: 12px 3px;
+background: rgb(218, 220, 223);
+
+}
+#fruit{
+    float:right;
+    width:48%;
+}
+#computer{
+    float:left;
+    width:48%;
+}
+#stationary{
+          /* float: left; */
+            clear: both;
+            clear: left;
+            width: 100%;
+}
+p,h3{
+    /* text-align: right;
+            text-align: left;
+            text-align: center; */
+            text-align: justify;
+}
+h1{
+            margin: 23px auto;
+            width: 455px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Store</h1>
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitpara" class="para" > Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut non, fuga optio beatae labore quaerat quasi alias consequuntur, ducimus dolor possimus aut tempore enim magnam rerum. Modi quidem suscipit officiis ducimus iste sapiente vel, ut nisi enim, nemo dignissimos repellendus harum! Nihil cupiditate, vero adipisci perferendis maiores unde deserunt odio, veniam harum magni facilis!</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computers</h3>
+            <p id="computerpara" class="para" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fuga qui natus saepe eum quas? Nesciunt aspernatur eum necessitatibus minima impedit, voluptate a, repellendus id aliquam itaque modi quas beatae similique vitae architecto voluptatem reprehenderit suscipit deserunt. Numquam sequi ab fugiat et delectus tenetur enim! Deleniti quod voluptates pariatur ullam.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="Stationarypara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni eligendi, corrupti voluptatum voluptatem ut autem voluptates atque quas at libero facere nesciunt vero ullam, qui itaque error earum. Sunt exercitationem minima similique ipsam quasi ipsa officiis impedit, quas eum veritatis, temporibus consectetur porro laudantium expedita quidem veniam optio vitae dolorum.</p>
+        </div>
+    </div>
+</body>
+</html>
