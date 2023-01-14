@@ -1,0 +1,37 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: aqua;
+
+}
+.container{
+    background-color: aliceblue;
+    border: 3px solid rgb(34, 45, 67);
+    /* We can set margin/padding for  top, bottom, left and right like this */
+            /* padding-top: 79px;
+            padding-bottom: 79px;
+            padding-left: 34px; 
+            padding-right: 79px;*/
+
+            /* margin-top: 3px;
+            margin-bottom: 5px;
+            margin-left: 34px;
+            margin-right:5px ; */
+            /* margin = top right bottom left;  */
+            /* padding = top right bottom left;  */
+
+            /* padding: 23px 56px 6px 78px;   */
+            /* margin: 23px 56px 6px 78px;   */
+        
+            /* padding: y(top/bottom) x(left/right); */
+            /* margin: y(top/bottom) x(left/right); */
+    padding: 34px 44px;
+    margin: 34px 44px;
+    border: radius 23px;
+    width:533px;
+
+}
