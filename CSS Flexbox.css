@@ -1,0 +1,49 @@
+  .container{
+            height: 134px;
+            width: 134px;
+            display: flex;
+            /* Intialize the Container as a flex box. */
+
+            /* Flex Properties for Flex Container */
+            flex-direction: column;       
+            /* Default value of Flex Direction is Row */
+            flex-direction: row row-reverse;
+            flex-wrap: wrap;
+            /* Default value of Wrap is no-Wrap 
+             flex-flow: row-reverse wrap; Shorthand for flex direction as well as for flex Wrap  */
+             /* Justify Content will justify the content in horizontal direction *
+             justify-content: center;
+             justify-content: space-between;
+
+              /* justify-content will justify the content in vertical direction */
+            /* align-items: center; */
+            /* align-items: flex-end; */
+            /* align-items: flex-start; */
+            /* align-items: stretch; */ 
+
+
+            
+        }
+        .item{
+            width:200px;
+            height: 200px;
+            background-color: tomato;
+            border: 2px solid red;
+            margin:10px;
+            padding: 3px;
+        }
+        #item1{
+            /* Higher the Order, later it shows up in the Container */
+            order: 3;
+            flex-grow: 2px;
+        flex-basis: 160px;
+         /* when flex-direction is set to row flex-basis: will control width */
+            /* when flex-direction is set to column flex-basis: will control height */
+        }
+        #item2{
+            /* flex: 2 2 230px; */
+            align-self: flex-start;
+            align-self: flex-end;
+            align-self: center;
+
+            }
