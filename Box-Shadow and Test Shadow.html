@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Shadow and Test Shadow</title>
+    <style>
+        .container{
+            display: flex;
+            
+
+        }
+        .card{
+            box-shadow: 3px 4px 4px 34px blue;
+            padding: 34px 34px ;
+            margin: 34px 34px;
+            background-color: black;
+            color: aliceblue;
+     /* box-shadow: offset-x offset-y color; 
+     box-shadow: offset-x offset-y blur-radius color; 
+     box-shadow: offset-x offset-y blur-radius spread-radius color; */
+        }
+        .card h2{
+            /* text-shadow: 3px 4px red; */
+    /* text-shadow: 3px 2px 2px white; */
+    text-shadow: -3px -2px 2px white;
+        }
+
+    </style>
+</head>
+<body>
+ <div class="container">
+    <div class="card" id="card1">
+        <h2>This is the Card 1</h2>
+    </div>
+    <div class="card" id="card2">
+        <h2>This is the Card 2</h2>
+    </div>
+    <div class="card" id="card3">
+        <h2>This is the Card 3</h2>
+    </div>
+
+ </div>
+    
+</body>
+</html>
