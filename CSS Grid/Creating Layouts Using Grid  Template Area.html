@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Template Area</title>
+    <style>
+
+        .container{
+            display:grid;
+            grid-gap:1rem;
+            grid-template-areas: 
+            'navbar navbar navbar navbar'
+            'section section section aside'
+            'footer footer footer footer';
+            
+        }
+        .item{
+            background-color: yellow;
+            border: 2px solid red;
+            padding: 12px 23px;
+
+        }
+        #navbar{
+            grid-area: navbar;
+
+        }
+        #section{
+            grid-area: section;
+
+        }
+        #aside{
+            grid-area: aside;
+        }
+        #footer{
+            grid-area:footer;
+        }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+      <div id="navbar" class="item">Home About Contact Us</div>
+      <div id="section" class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+        delectus, vero autem repellendus quasi natus eveniet ipsam, eum hic
+        culpa voluptatibus similique nobis modi ratione ea dicta deleniti
+        molestias perspiciatis saepe dolorem neque corporis!
+      </div>
+      <div id="aside" class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+        omnis dolore similique, quasi nihil molestias voluptas doloribus totam
+        voluptatem, illo maiores quod modi quis, repellendus cum numquam id
+        reprehenderit. Praesentium qui quod assumenda consectetur!
+      </div>
+      <div id="footer" class="item">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+        laborum mollitia rerum quidem.
+      </div>
+    </div>
+ 
 
