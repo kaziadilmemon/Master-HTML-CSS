@@ -45,5 +45,5 @@ If it's your first time to contribute, here's some help!
 ### 3: Create Branch and add your contribution
 ### 4: Push changes and make a pull request
 
-## Make sure the pattern for each resource is like:
+## Make sure the pattern for each is like this:
 
